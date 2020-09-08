@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推荐",
+  "usingComponents": {
+    "swiper-item": "/components/swiper/SwiperItem",
+    "swiper-img": "/components/hswiper/swiper"
+  }
+}

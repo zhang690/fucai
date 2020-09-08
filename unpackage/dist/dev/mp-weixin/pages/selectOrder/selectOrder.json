@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选号单",
+  "usingComponents": {
+    "segmented": "/components/tabs/segmented"
+  }
+}

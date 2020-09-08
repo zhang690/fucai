@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wait-lingqu.data-v-66503d79 {
+  padding: 35rpx;
+}
+.wait-lingqu .lingqu-content.data-v-66503d79 {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  box-shadow: 2rpx 2rpx 2rpx #eee;
+}
+.wait-lingqu .lingqu-content .content-zhuangtai.data-v-66503d79 {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.wait-lingqu .lingqu-content .content-zhuangtai .btn.data-v-66503d79 {
+  text-align: right;
+  font-size: 26rpx;
+  color: #fff;
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #ff3c36;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.wait-lingqu .lingqu-content .content-zhuangtai .name.data-v-66503d79 {
+  font-size: 32rpx;
+  color: #666;
+}
+.wait-lingqu .lingqu-content .content-title.data-v-66503d79 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.wait-lingqu .lingqu-content .content-info.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  padding: 25rpx 20rpx;
+}
+.wait-lingqu .lingqu-content .content-info .info-icon.data-v-66503d79 {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+.wait-lingqu .lingqu-content .content-info .info-icon image.data-v-66503d79 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wait-lingqu .lingqu-content .content-info .info-item.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-name.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-name text.data-v-66503d79 {
+  color: #666;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-name text.data-v-66503d79:last-child {
+  margin-left: 10rpx;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-num.data-v-66503d79 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-num .red.data-v-66503d79 {
+  color: red;
+  white-space: pre;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-num .blue.data-v-66503d79 {
+  color: blue;
+  margin-left: 16rpx;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-num .info.data-v-66503d79 {
+  font-size: 15px;
+  color: #666;
+}
+.wait-lingqu .lingqu-content .content-info .info-item .info-num .info.data-v-66503d79:first-of-type {
+  margin-right: 30rpx;
+}
+.wait-lingqu .order-number.data-v-66503d79 {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  background-color: #fff;
+  color: #999;
+  padding: 30rpx 20rpx;
+  border-radius: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30rpx;
+}
+.wait-lingqu .order-number .order-number-info.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.wait-lingqu .order-number .order-number-info .order-number-name.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.wait-lingqu .order-number .order-number-info .order-number-name .order-number-left.data-v-66503d79 {
+  font-size: 30rpx;
+  color: #666;
+}
+.wait-lingqu .order-number .order-number-info .order-number-name .order-number-left.data-v-66503d79:first-of-type {
+  color: #333;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 36rpx;
+}
+.wait-lingqu .order-number .order-number-info .order-number-address.data-v-66503d79 {
+  font-size: 30rpx;
+  color: #666;
+}
+.wait-lingqu .order-number .order-number-info .order-item.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.wait-lingqu .order-number .order-number-info .qishou.data-v-66503d79 {
+  width: 236rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #ff3c36;
+  border-radius: 10rpx;
+}
+.wait-lingqu .order-number .order-number-info .qishou text.data-v-66503d79 {
+  color: #fff;
+  font-size: 30rpx;
+}
+.wait-lingqu .order-number .order-number-item.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  font-size: 14px;
+  color: #666;
+}
+.wait-lingqu .order-number .order-number-item .order-number-left.data-v-66503d79:last-of-type {
+  margin: 0 20rpx;
+}
+.wait-lingqu .lingqu-btn.data-v-66503d79 {
+  position: fixed;
+  bottom: 20rpx;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 60rpx;
+  text-align: center;
+  background-color: #fe8685;
+  color: #fff;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+}
+.order_img.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 20rpx;
+  margin-bottom: 120rpx;
+  padding-top: 20rpx;
+}
+.order_img .list_img.data-v-66503d79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.order_img .list_img .item.data-v-66503d79 {
+  width: 210rpx;
+  height: 210rpx;
+  margin-bottom: 20rpx;
+  margin-right: 16rpx;
+}
+.order_img .list_img .item image.data-v-66503d79 {
+  display: block;
+  width: 210rpx;
+  height: 210rpx;
+}
+

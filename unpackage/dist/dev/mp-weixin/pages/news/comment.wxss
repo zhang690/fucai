@@ -1,0 +1,40 @@
+
+.container{
+	width: 100%;
+	margin-top:10rpx;
+	overflow-x: hidden;
+}
+.container>view{
+	margin: 0 auto;
+	width:700rpx;
+	height: 85rpx;
+	padding-top:35rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+}
+.container>view>image{
+	display: block;
+	width:80rpx;
+	height: 80rpx;
+	border-radius:50%;
+}
+.container>view>view{
+		width:331rpx;
+		height: 80rpx;
+		margin-left: 50rpx;
+}
+.userName{
+		font-size:20rpx;
+		color:#999;
+		line-height: 30rpx;
+		margin-top: 5rpx;
+}
+.userInfo{
+		font-size:25rpx;
+	
+		color:#303030;
+		line-height: 50rpx;
+}
+
+

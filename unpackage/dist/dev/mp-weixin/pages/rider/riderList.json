@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的配送",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "segmented": "/components/tabs/segmented"
+  }
+}

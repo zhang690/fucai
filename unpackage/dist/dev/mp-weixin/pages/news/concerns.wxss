@@ -1,0 +1,48 @@
+
+.container{
+	width: 100%;
+	margin-top:10rpx;
+	overflow-x: hidden;
+}
+.container>view{
+	margin: 0 auto;
+	width:700rpx;
+	height: 85rpx;
+	padding-top:35rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+}
+.container>view>image{
+	display: block;
+	width:80rpx;
+	height: 80rpx;
+	border-radius:50%;
+}
+.container>view>view{
+		width:331rpx;
+		height: 80rpx;
+		margin-left: 30rpx;
+}
+.userName{
+		font-size:25rpx;
+		color:#303030;
+		line-height: 30rpx;
+}
+.userInfo{
+		font-size:20rpx;
+		color:#999;
+		line-height: 50rpx;
+}
+.sbtn{
+		width:115rpx !important;
+		height:50rpx  !important;
+		margin-left: 140rpx !important;
+		background:#556adc;
+		border-radius: 5rpx;
+		text-align: center;
+		line-height: 50rpx;
+		font-size: 26rpx;
+		color:white;
+}
+

@@ -1,0 +1,409 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationStyle":"custom"
+			}
+		}, 
+		{
+			"path": "pages/login/userLogin",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"navigationStyle":"custom"
+			}
+		},
+				
+		{
+			"path": "pages/rider/riderList",
+			"style": {
+				"navigationBarTitleText": "我的配送"
+			}
+		},		
+		{
+			"path": "pages/index/caijuan",
+			"style": {
+				"navigationBarTitleText": "我的体验券"
+			}
+		},
+		{
+			"path": "pages/rider/riderPeisong",
+			"style": {
+				"navigationBarTitleText": "待配送"
+			}
+		},
+		{
+			"path": "pages/rider/riderWancheng",
+			"style": {
+				"navigationBarTitleText": "已送达"
+			}
+		},
+		{
+			"path": "pages/setadress/adressList",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/kaijiang/fucaiDetail",
+			"style": {
+				"navigationBarTitleText": "福彩3D开奖历史"
+			}
+		},
+		{
+			"path": "pages/rider/riderDetail",
+			"style": {
+				"navigationBarTitleText": "待领取"
+			}
+		},
+		{
+			"path": "pages/getHome/getHome",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"navigationStyle":"custom"
+			}
+		},		
+		{
+			"path": "pages/login/merchantLogin",
+			"style": {
+				"navigationBarTitleText": "站长登录",
+				"navigationStyle":"custom"
+			}
+		},		
+		{
+			"path": "pages/intimidate/intimidateList",
+			"style": {
+				"navigationBarTitleText": "我的打单"
+				
+			}
+		},
+		{
+			"path": "pages/intimidate/intimidateDetail",
+			"style": {
+				"navigationBarTitleText": "待打单"
+			}
+		},
+		{
+			"path": "pages/intimidate/intimidateFinish",
+			"style": {
+				"navigationBarTitleText": "打单完成"
+			}
+		},
+		{
+			"path": "pages/merchant/merchantList",
+			"style": {
+				"navigationBarTitleText": "站长",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/merchant/memberHistory",
+			"style": {
+				"navigationBarTitleText": "会员历史记录"
+			}
+		},
+		{
+			"path": "pages/merchant/merchantInfo",
+			"style": {
+				"navigationBarTitleText": "扫码成功"
+			}
+		},
+		{
+			"path": "pages/login/riderLogin",
+			"style": {
+				"navigationBarTitleText": "骑手登录",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/intimidateLogin",
+			"style": {
+				"navigationBarTitleText": "业务员登录",
+				"navigationStyle":"custom"
+			}
+		},{
+			"path": "pages/selectOrder/locationWebView",
+			"style": {
+				"navigationBarTitleText": "业务员登录",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path": "pages/mine/tuijian",
+			"style": {
+				"navigationBarTitleText": "推荐有礼"
+			}
+		},
+		{
+			"path": "pages/luckyWheel/luckyWheel",
+			"style": {
+				"navigationBarTitleText": "抽奖"
+			}
+		},
+		{
+			"path": "pages/mine/duihuanRecord",
+			"style": {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		{
+			"path": "pages/mine/jifenIntegral",
+			"style": {
+				"navigationBarTitleText": "积分兑换"
+			}
+		},
+		{
+			"path": "pages/selectOrder/selectOrder",
+			"style": {
+				"navigationBarTitleText": "选号单"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCodeqicai",
+			"style": {
+				"navigationBarTitleText": "七乐彩模拟选号工具"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectThreeD",
+			"style": {
+				"navigationBarTitleText": "福彩3D模拟选号工具"
+			}
+		},
+		{
+			"path": "pages/kaijiang/kaijiang",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/kaijiang/qilecaiDetail",
+			"style": {
+				"navigationBarTitleText": "七乐彩历史开奖"
+			}
+		},
+		{
+			"path": "pages/kaijiang/shuangseDetail",
+			"style": {
+				"navigationBarTitleText": "双色球历史开奖"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCode",
+			"style": {
+				"navigationBarTitleText": "双色球模拟选号工具"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/mine/jifen",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/mine/myjifen",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/mine/waitTicket",
+			"style": {
+				"navigationBarTitleText": "兑票中"
+			}
+		},
+		{
+			"path": "pages/mine/waitRecive",
+			"style": {
+				"navigationBarTitleText": "待领取"
+			}
+		},
+		{
+			"path": "pages/mine/wancheng",
+			"style": {
+				"navigationBarTitleText": "已完成"
+			}
+		},
+		{
+			"path": "pages/setadress/setAdress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/giveSelect/giveSelect",
+			"style": {
+				"navigationBarTitleText": "配送方式"
+			}
+		},
+		{
+			"path": "pages/order/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的体验"
+			}
+		},
+		{
+			"path": "pages/prize/prizeList",
+			"style": {
+				"navigationBarTitleText": "我的中奖"
+			}
+		},
+		{
+			"path": "pages/prize/prizeFinish",
+			"style": {
+				"navigationBarTitleText": "中奖详细"
+			}
+		},
+		{
+			"path": "pages/mine/nearbyLottery",
+			"style": {
+				"navigationBarTitleText": "附近彩票网点"
+			}
+		},
+		{
+			"path": "pages/mine/jifenAll",
+			"style": {
+				"navigationBarTitleText": "活动专场"
+			}
+		},
+		{
+			"path": "pages/merchant/collectRecords",
+			"style": {
+				"navigationBarTitleText": "领取记录"
+			}
+		},
+		{
+			"path": "pages/merchant/merchantHistoryDetails",
+			"style": {
+				"navigationBarTitleText": "领取详情"
+			}
+		},
+		{
+			"path": "pages/account/accountList",
+			"style": {
+				"navigationBarTitleText": "账户设置"
+			}
+		},
+		{
+			"path": "pages/account/myName",
+			"style": {
+				"navigationBarTitleText": "头像设置"
+			}
+		},
+		{
+			"path": "pages/account/nickename",
+			"style": {
+				"navigationBarTitleText": "姓名设置"
+			}
+		},
+		{
+			"path": "pages/account/phone",
+			"style": {
+				"navigationBarTitleText": "手机号设置"
+			}
+		},
+		{
+			"path": "pages/account/loginName",
+			"style": {
+				"navigationBarTitleText": "昵称设置"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCodeTT",
+			"style": {
+				"navigationBarTitleText": "双色球走势"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCodeqicaiTT",
+			"style": {
+				"navigationBarTitleText": "七乐彩走势"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectThreeDTT",
+			"style": {
+				"navigationBarTitleText": "3D走势"
+			}
+		},
+		{
+			"path": "pages/news/newsDetail",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/news/comment",
+			"style": {
+				"navigationBarTitleText": "我的评论"
+			}
+		},
+		{
+			"path": "pages/news/concerns",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+		{
+			"path": "pages/kaijiang/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+	],	
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#f0716f",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "./static/tabbar/index_active.png"
+			},
+			{
+				"pagePath": "pages/kaijiang/kaijiang",
+				"text": "资讯",
+				"iconPath": "./static/tabbar/jiangbei.png",
+				"selectedIconPath": "./static/tabbar/jiangbei_active.png"
+			},
+			{
+				"pagePath": "pages/getHome/getHome",
+				"text": "关注",
+				"iconPath": "./static/tabbar/book.png",
+				"selectedIconPath": "./static/tabbar/book_active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/tabbar/me.png",
+				"selectedIconPath": "./static/tabbar/me_active.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"sitemapLocation":"sitemap.json"
+}

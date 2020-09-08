@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.rider-list.data-v-85717378 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ff3c36;
+  margin: 0 auto;
+}
+.rider-list > .title.data-v-85717378 {
+  margin: 0 auto;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 80rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.rider-list .bag_img.data-v-85717378 {
+  position: absolute;
+  left: 48%;
+  top: 8%;
+  background-color: #FFFFFF;
+  width: 500rpx;
+  height: auto;
+  margin: 0 auto;
+  margin-left: -250rpx;
+  margin-top: 200rpx;
+  border-radius: 10rpx;
+  box-shadow: 0px 0px 4px #999;
+  z-index: 100;
+  padding: 0 20rpx;
+}
+.rider-list .nav.data-v-85717378 {
+  height: 10vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  background: #fff;
+  color: #333;
+}
+.rider-list .nav .blanck.data-v-85717378 {
+  width: 180rpx;
+  background-color: red;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 10rpx;
+}
+.rider-list .nav .title.data-v-85717378 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 20rpx;
+  margin-left: -160rpx;
+}
+.rider-list .circle.data-v-85717378 {
+  width: 100vw;
+  background-color: #fff;
+  height: auto;
+  position: fixed;
+  top: 13%;
+}
+.rider-list .circle .circle_img.data-v-85717378 {
+  position: relative;
+  height: auto;
+}
+.rider-list .circle .circle_img .img_A.data-v-85717378 {
+  width: 90%;
+  height: 670rpx;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+.rider-list .circle .circle_img .circle_title.data-v-85717378 {
+  position: absolute;
+  top: 240rpx;
+  left: 36%;
+  width: 200rpx;
+  height: 230rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.rider-list .circle .circle_img .circle_title .img_B.data-v-85717378 {
+  width: 160rpx;
+  height: 160rpx;
+}
+.rider-list .circle .circle_img .circle_title .title.data-v-85717378 {
+  font-size: 18px;
+  color: #ff3c36;
+  margin-top: 20rpx;
+}
+.rider-list .btn.data-v-85717378 {
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  width: 100vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.rider-list .btn .btn_img.data-v-85717378 {
+  width: 27%;
+  background-color: #fff;
+  border-radius: 50rpx;
+  height: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.rider-list .btn .btn_img text.data-v-85717378 {
+  font-size: 16px;
+  color: #ff3c36;
+}
+.rider-list .btnList.data-v-85717378 {
+  position: fixed;
+  left: 0;
+  bottom: 20%;
+  width: 100vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.rider-list .btnList .btn_img.data-v-85717378 {
+  width: 36%;
+  text-align: center;
+}
+.rider-list .btnList .btn_img:first-of-type text.data-v-85717378 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.rider-list .btnList .btn_img.data-v-85717378:last-of-type {
+  margin-top: 20rpx;
+}
+.rider-list .btnList .btn_img text.data-v-85717378 {
+  font-size: 16px;
+  color: #fff;
+}
+.background.data-v-85717378 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+.bag_img .bag_map.data-v-85717378 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+}
+.bag_img .bag_map .bag_item.data-v-85717378 {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 16rpx 0;
+  border-bottom: 1px solid #eee;
+}
+.bag_img .bag_map .bag_item image.data-v-85717378 {
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin-right: 30rpx;
+}
+.bag_img .bag_map .bag_item .inputAll.data-v-85717378 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.bag_img .bag_map .bag_item .inputAll input.data-v-85717378 {
+  width: 100%;
+  height: 100%;
+}
+.bag_img .bag_map .bag_width.data-v-85717378 {
+  width: 100%;
+}
+.bag_img .bag_map .bag_btn.data-v-85717378 {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  font-size: 18px;
+  color: #333;
+}
+.bag_img .bag_map .bag_btn .close.data-v-85717378 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+.bag_img .bag_map .bag_btn .close.data-v-85717378:first-child {
+  color: #ff3c36;
+}
+

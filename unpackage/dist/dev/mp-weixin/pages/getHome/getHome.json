@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "关注",
+  "usingComponents": {
+    "swiper-item": "/components/swiper/SwiperItem",
+    "swiper-img": "/components/hswiper/swiper"
+  }
+}

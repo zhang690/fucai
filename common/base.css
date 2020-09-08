@@ -1,0 +1,125 @@
+/*通用 */
+page {
+	background-color: #faf6f7;
+	font-size: 28rpx;
+}
+view,navigator,swiper{
+	margin: 0;
+	padding: 0;
+}
+progress,
+checkbox-group {
+	width: 100%;
+}
+
+form {
+	width: 100%;
+}
+
+button {
+	font-size: 28rpx;
+}
+
+input {
+	background-color: #FFFFFF;
+}
+
+.warp {}
+
+.content {
+	padding: 0 3%;
+}
+
+.placestyle {
+	font-size: 24rpx;
+	color: #999999;
+}
+image{
+	display: block;
+	width: 100%;
+}
+.black{
+	color: #bbb;
+}
+/*表单样式*/
+.f_item {
+	position: relative;
+	padding: 20rpx 20rpx 20rpx 220rpx;
+	background-color: #FFFFFF;
+	margin-bottom: 10rpx;
+	min-height: 50rpx;
+}
+
+.f_maxitem {
+	padding: 90rpx 20rpx 20rpx 20rpx;
+}
+
+.f_tit {
+	position: absolute;
+	top: 20rpx;
+	left: 20rpx;
+	width: 180rpx;
+	color: #999999;
+}
+
+textarea {
+	width: 100%;
+}
+
+input {
+	height: 30rpx;
+	line-height: 30rpx;
+}
+
+.f_piclist {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.f_piclist .f_picshow image {
+	display: block;
+	width: 100%;
+	max-height: 180rpx;
+
+}
+
+.f_picshow {
+	flex: 0 1 30%;
+	margin: 5rpx;
+	overflow: hidden;
+	position: relative;
+	border: 1px #CCCCCC solid;
+	border-radius: 10rpx;
+}
+
+.f_picshow .f_del {
+	position: absolute;
+	top: 0rpx;
+	right: 0rpx;
+	padding: 0rpx;
+	width: 30rpx;
+	text-align: center;
+	height: 30rpx;
+	ling-height: 30rpx;
+	font-size: 24rpx;
+	color: #C53D2E;
+}
+
+.f_picselect {
+	flex: 0 1 30%;
+	border: 1px #CCCCCC solid;
+	border-radius: 10rpx;
+	margin: 5rpx;
+	overflow: hidden;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+}
+
+.f_picselect text {
+	font-size: 40rpx;
+	color: #CCCCCC;
+}
+
+/*表单样式*/

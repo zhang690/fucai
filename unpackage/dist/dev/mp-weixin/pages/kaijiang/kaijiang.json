@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资讯",
+  "usingComponents": {
+    "swiper-item": "/components/swiper/SwiperItem",
+    "swiper-img": "/components/hswiper/swiper"
+  }
+}
